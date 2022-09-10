@@ -6,7 +6,9 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
 import android.widget.EditText
+import androidx.appcompat.widget.Toolbar
 import com.google.android.material.textfield.TextInputLayout
+import kotlinx.android.synthetic.main.activity_login.*
 
 class MakeAccountActivity : AppCompatActivity() {
     private lateinit var emailTextInput: TextInputLayout
@@ -17,9 +19,10 @@ class MakeAccountActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_make_account)
-        // タイトル非表示
-        supportActionBar?.setDisplayShowTitleEnabled(false)
-        // 戻るボタン表示
+
+        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        toolbar.setTitle(R.string.btMakeAccount)
+        setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 

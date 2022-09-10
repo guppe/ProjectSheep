@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ProjectSheep"
         tools:targetApi="31">
         <activity
+            android:name=".AuthenticationSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectCourseActivity"
+            android:exported="false" />
+        <activity
             android:name=".SelectPositionActivity"
             android:exported="false" />
         <activity

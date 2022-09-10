@@ -7,10 +7,10 @@ import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.widget.Toolbar
 
-class SendEmailActivity : AppCompatActivity() {
+class AuthenticationSuccessActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_send_email)
+        setContentView(R.layout.activity_authentication_success)
 
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         toolbar.setTitle(R.string.btMakeAccount)
@@ -19,8 +19,8 @@ class SendEmailActivity : AppCompatActivity() {
     }
 
     // 次へボタンが押された場合
-    fun onNextAuthButtonClick(view: View?) {
-        val intent = Intent(this@SendEmailActivity, AuthenticationSuccessActivity::class.java)
+    fun onNextGradeButtonClick(view: View?) {
+        val intent = Intent(this@AuthenticationSuccessActivity, SelectPositionActivity::class.java)
         startActivity(intent)
     }
 

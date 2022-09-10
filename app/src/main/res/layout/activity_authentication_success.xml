@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SendEmailActivity">
+    tools:context=".AuthenticationSuccessActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -18,13 +18,13 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
-        android:id="@+id/sendEmailText"
+        android:id="@+id/AuthText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sendEmailText"
+        android:text="@string/authText"
         android:textColor="@color/system_gray_800"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/btNextAuth"
+        app:layout_constraintBottom_toTopOf="@+id/btNextGrade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,14 +32,14 @@
         app:layout_constraintVertical_bias="0.588" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btNextAuth"
+        android:id="@+id/btNextGrade"
         style="@style/Widget.MaterialComponents.Button"
         android:layout_width="328dp"
         android:layout_height="66dp"
         android:layout_marginBottom="296dp"
         android:shape="rectangle"
         android:text="@string/btNextGrade"
-        android:onClick="onNextAuthButtonClick"
+        android:onClick="onNextGradeButtonClick"
         app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

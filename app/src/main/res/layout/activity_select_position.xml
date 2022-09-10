@@ -6,4 +6,72 @@
     android:layout_height="match_parent"
     tools:context=".SelectPositionActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/Theme.ProjectSheep"
+        android:elevation="10dp"
+        app:layout_constraintTop_toTopOf="parent "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <RadioGroup
+        android:layout_width="154dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toTopOf="@+id/btNextCourse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.800">
+
+        <RadioButton
+            android:id="@+id/rbGrade1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbGrade1" />
+
+        <RadioButton
+            android:id="@+id/rbGrade2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbGrade2" />
+
+        <RadioButton
+            android:id="@+id/rbGrade3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbGrade3" />
+
+        <RadioButton
+            android:id="@+id/rbGrade4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbGrade4" />
+
+        <RadioButton
+            android:id="@+id/rbOthers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbOthers" />
+
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btNextCourse"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="328dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="296dp"
+        android:shape="rectangle"
+        android:text="@string/btNextCourse"
+        android:onClick="onNextCourseButtonClick"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

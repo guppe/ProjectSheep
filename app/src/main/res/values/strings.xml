@@ -2,7 +2,7 @@
     <string name="app_name">ProjectSheep</string>
 
     <!-- Loginのtext -->
-    <string name="Logo">LOGO</string>
+    <string name="logo">LOGO</string>
     <string name="btLogin">ログイン</string>
 
     <!-- MakeAccountのtext -->
@@ -12,5 +12,22 @@
 
     <!-- sendEmailのtext -->
     <string name="sendEmailText">メールを送信しました。</string>
+    <string name="btNextAuth">次へ</string>
+
+    <!-- Authのtext -->
+    <string name="authText">認証が完了しました。</string>
     <string name="btNextGrade">次へ</string>
+
+    <!-- SelectPositionのtext -->
+    <string name="selectGrade">学年選択</string>
+    <string name="rbGrade1">1年生</string>
+    <string name="rbGrade2">2年生</string>
+    <string name="rbGrade3">3年生</string>
+    <string name="rbGrade4">4年生</string>
+    <string name="rbOthers">その他</string>
+    <string name="btNextCourse">次へ</string>
+
+    <!-- SelectCourseのtext -->
+    <string name="selectCourse">学科・教職選択</string>
+    <string name="btStart">はじめる</string>
 </resources>

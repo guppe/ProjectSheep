@@ -7,20 +7,19 @@ import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.widget.Toolbar
 
-class SendEmailActivity : AppCompatActivity() {
+class SelectCourseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_send_email)
-
+        setContentView(R.layout.activity_select_course)
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
-        toolbar.setTitle(R.string.btMakeAccount)
+        toolbar.setTitle(R.string.selectCourse)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
-    // 次へボタンが押された場合
-    fun onNextAuthButtonClick(view: View?) {
-        val intent = Intent(this@SendEmailActivity, AuthenticationSuccessActivity::class.java)
+    // はじめるボタンが押された場合
+    fun onStartButtonClick(view: View?) {
+        val intent = Intent(this@SelectCourseActivity, TimeTableActivity::class.java)
         startActivity(intent)
     }
 
