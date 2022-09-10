@@ -13,12 +13,21 @@
         android:theme="@style/Theme.ProjectSheep"
         tools:targetApi="31">
         <activity
+            android:name=".SendEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MakeAccountActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".TimeTableActivity"
-            android:label="TimeTable"
-            android:exported="true">
+            android:exported="true"
+            android:label="TimeTable">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
