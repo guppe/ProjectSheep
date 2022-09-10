@@ -33,7 +33,6 @@ class LoginActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-
     // EditTextの条件
     private fun setError() {
         if (emailEditText.text.isEmpty()) {

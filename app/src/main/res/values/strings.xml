@@ -9,4 +9,8 @@
     <string name="btMakeAccount">新規登録</string>
     <string name="editTextEmail">メールアドレス</string>
     <string name="editTextPassword">パスワード</string>
+
+    <!-- sendEmailのtext -->
+    <string name="sendEmailText">メールを送信しました。</string>
+    <string name="btNextGrade">次へ</string>
 </resources>
