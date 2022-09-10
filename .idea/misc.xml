@@ -6,13 +6,15 @@
         <entry key="app/src/main/res/drawable/ic_baseline_place_24.xml" value="0.185" />
         <entry key="app/src/main/res/drawable/ic_place.xml" value="0.185" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/activity_time_table.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_time_table.xml" value="0.4827188940092166" />
         <entry key="app/src/main/res/layout/fragment_friday.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/fragment_monday.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_monday.xml" value="0.335" />
         <entry key="app/src/main/res/layout/fragment_thursday.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_tuesday.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_wednesday.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/header_navigation_drawer.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/time_table_item_list.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/navigation_drawer.xml" value="0.27794871794871795" />
       </map>
     </option>
   </component>
