@@ -14,6 +14,7 @@
     <color name="gray">#C4C4C4</color>
     <color name="system_gray_100">#F5F5F5</color>
     <color name="system_gray_500">#9E9E9E</color>
+    <color name="system_gray_700">#616161</color>
     <color name="system_gray_800">#424242</color>
     <color name="system_gray_600">#757575</color>
     <color name="impact_red">#BE0123</color>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/nvTimeTable"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/searchMap"
+            android:icon="@drawable/ic_place_nv"
+            android:title="@string/nv_item_search_map"
+            android:checked="false"/>
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/nav_item_settings"
+            android:checked="false"/>
+
+        <item
+            android:id="@+id/helps"
+            android:icon="@drawable/ic_help_outline"
+            android:title="@string/nv_item_help"
+            android:checked="false"/>
+
+    </group>
+</menu>
