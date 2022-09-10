@@ -29,5 +29,18 @@
 
     <!-- SelectCourseのtext -->
     <string name="selectCourse">学科・教職選択</string>
+    <string name="cbMechanical">機械工学科</string>
+    <string name="cbAeronautics">航空システム工学科</string>
+    <string name="cbRobotics">ロボティクス学科</string>
+    <string name="cbElectricalAndElectronic">電気電子工学科</string>
+    <string name="cbInformationAndComputerScience">情報工学科</string>
+    <string name="cbCivilAndEnvironmental">環境土木工学科</string>
+    <string name="cbMediaInformatics">メディア情報学科</string>
+    <string name="cbManagementSystems">経営情報学科</string>
+    <string name="cbPsychologicalScience">心理科学科</string>
+    <string name="cbArchitecture">建築学科</string>
+    <string name="cbAppliedChemistry">応用化学科</string>
+    <string name="cbAppliedBioscience">応用バイオ学科</string>
+    <string name="cbTeacherTraining">教職</string>
     <string name="btStart">はじめる</string>
 </resources>

@@ -31,31 +31,36 @@
             android:id="@+id/rbGrade1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rbGrade1" />
+            android:text="@string/rbGrade1"
+            android:textSize="12sp"/>
 
         <RadioButton
             android:id="@+id/rbGrade2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rbGrade2" />
+            android:text="@string/rbGrade2"
+            android:textSize="12sp"/>
 
         <RadioButton
             android:id="@+id/rbGrade3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rbGrade3" />
+            android:text="@string/rbGrade3"
+            android:textSize="12sp"/>
 
         <RadioButton
             android:id="@+id/rbGrade4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rbGrade4" />
+            android:text="@string/rbGrade4"
+            android:textSize="12sp"/>
 
         <RadioButton
             android:id="@+id/rbOthers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rbOthers" />
+            android:text="@string/rbOthers"
+            android:textSize="12sp"/>
 
     </RadioGroup>
 
