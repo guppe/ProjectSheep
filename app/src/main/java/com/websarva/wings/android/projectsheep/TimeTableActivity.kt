@@ -2,10 +2,33 @@ package com.websarva.wings.android.projectsheep
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.viewpager2.widget.ViewPager2
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
+import com.websarva.wings.android.projectsheep.databinding.ActivityMainBinding
 
 class TimeTableActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+    private val tabTitleArray = arrayOf(
+        "月",
+        "火",
+        "水",
+        "木",
+        "金"
+    )
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_time_table)
+
+        val viewPager2: ViewPager2 = findViewById(R.id.viewPager2)
+        val tabLayout: TabLayout = findViewById(R.id.tabLayout)
+
+        viewPager2.adapter = TimeTableViewPagerAdapter(supportFragmentManager, lifecycle)
+
+        TabLayoutMediator(tabLayout, viewPager2) { tab, position ->
+            tab.text = tabTitleArray[position]
+        }.attach()
     }
 }

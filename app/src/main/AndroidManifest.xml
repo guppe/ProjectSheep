@@ -17,7 +17,7 @@
             android:exported="false" />
         <activity
             android:name=".TimeTableActivity"
-            android:label="TimeTable"
+            android:label="時間割"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
