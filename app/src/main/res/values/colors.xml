@@ -12,7 +12,9 @@
     <color name="right_kit_blue">#618AC3</color>
 
     <color name="gray">#C4C4C4</color>
+    <color name="right_gray">#EEEEEE</color>>
     <color name="system_gray_100">#F5F5F5</color>
+
     <color name="system_gray_500">#9E9E9E</color>
     <color name="system_gray_700">#616161</color>
     <color name="system_gray_800">#424242</color>

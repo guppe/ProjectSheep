@@ -1,5 +1,6 @@
 package com.websarva.wings.android.projectsheep
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toolbar
@@ -33,5 +34,10 @@ class TimeTableActivity : AppCompatActivity() {
         TabLayoutMediator(tabLayout, viewPager2) { tab, position ->
             tab.text = tabTitleArray[position]
         }.attach()
+    }
+
+    fun onButtonClick(view: View?) {
+        val intent = Intent(this@TimeTableActivity, LoginActivity::class.java)
+        startActivity(intent)
     }
 }

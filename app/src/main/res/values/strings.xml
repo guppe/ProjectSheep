@@ -1,5 +1,49 @@
 <resources>
     <string name="app_name">ProjectSheep</string>
+    
+    <!-- Loginのtext -->
+    <string name="logo">LOGO</string>
+    <string name="btLogin">ログイン</string>
+
+    <!-- MakeAccountのtext -->
+    <string name="btMakeAccount">新規登録</string>
+    <string name="editTextEmail">メールアドレス</string>
+    <string name="editTextPassword">パスワード</string>
+
+    <!-- sendEmailのtext -->
+    <string name="sendEmailText">メールを送信しました。</string>
+    <string name="btNextAuth">次へ</string>
+
+    <!-- Authのtext -->
+    <string name="authText">認証が完了しました。</string>
+    <string name="btNextGrade">次へ</string>
+
+    <!-- SelectPositionのtext -->
+    <string name="selectGrade">学年選択</string>
+    <string name="rbGrade1">1年生</string>
+    <string name="rbGrade2">2年生</string>
+    <string name="rbGrade3">3年生</string>
+    <string name="rbGrade4">4年生</string>
+    <string name="rbOthers">その他</string>
+    <string name="btNextCourse">次へ</string>
+
+    <!-- SelectCourseのtext -->
+    <string name="selectCourse">学科・教職選択</string>
+    <string name="cbMechanical">機械工学科</string>
+    <string name="cbAeronautics">航空システム工学科</string>
+    <string name="cbRobotics">ロボティクス学科</string>
+    <string name="cbElectricalAndElectronic">電気電子工学科</string>
+    <string name="cbInformationAndComputerScience">情報工学科</string>
+    <string name="cbCivilAndEnvironmental">環境土木工学科</string>
+    <string name="cbMediaInformatics">メディア情報学科</string>
+    <string name="cbManagementSystems">経営情報学科</string>
+    <string name="cbPsychologicalScience">心理科学科</string>
+    <string name="cbArchitecture">建築学科</string>
+    <string name="cbAppliedChemistry">応用化学科</string>
+    <string name="cbAppliedBioscience">応用バイオ学科</string>
+    <string name="cbTeacherTraining">教職</string>
+    <string name="btStart">はじめる</string>
+    
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="nv_item_search_map">マップ検索</string>
