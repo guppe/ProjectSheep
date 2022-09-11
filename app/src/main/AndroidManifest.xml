@@ -31,12 +31,16 @@
             android:name=".MakeAccountActivity"
             android:exported="false" />
         <activity
+            android:name=".MapViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".TimeTableActivity"
             android:exported="true"
-            android:label="TimeTable">
+            android:label="時間割">
+            
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

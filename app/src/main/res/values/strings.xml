@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ProjectSheep</string>
-
+    
     <!-- Loginのtext -->
     <string name="logo">LOGO</string>
     <string name="btLogin">ログイン</string>
@@ -43,4 +43,12 @@
     <string name="cbAppliedBioscience">応用バイオ学科</string>
     <string name="cbTeacherTraining">教職</string>
     <string name="btStart">はじめる</string>
+    
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nv_item_search_map">マップ検索</string>
+    <string name="nv_item_help">ヘルプ</string>
+    <string name="nav_item_settings">設定</string>
+    <string name="header_title">Mail</string>
+    <string name="header_mail_text">hogehoge@gmail.com</string>
 </resources>
