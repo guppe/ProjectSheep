@@ -40,6 +40,7 @@
                     android:text="ビジュアル表現基礎"
                     android:textColor="@color/system_gray_800"
                     android:textSize="16sp"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -52,6 +53,7 @@
                     android:layout_marginBottom="10dp"
                     android:text="24.301"
                     android:textColor="@color/system_gray_500"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -65,6 +67,7 @@
                 android:layout_weight="1"
                 android:background="#00FFFFFF"
                 android:src="@drawable/ic_place"
+                android:visibility="invisible"
                 app:tint="@color/dark_kit_blue" />
 
         </LinearLayout>
@@ -104,6 +107,7 @@
                     android:text="ビジュアル表現基礎"
                     android:textColor="@color/system_gray_800"
                     android:textSize="16sp"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -116,6 +120,7 @@
                     android:layout_marginBottom="10dp"
                     android:text="24.301"
                     android:textColor="@color/system_gray_500"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -129,6 +134,7 @@
                 android:layout_weight="1"
                 android:background="#00FFFFFF"
                 android:src="@drawable/ic_place"
+                android:visibility="invisible"
                 app:tint="@color/dark_kit_blue" />
 
         </LinearLayout>
@@ -168,6 +174,7 @@
                     android:text="ビジュアル表現基礎"
                     android:textColor="@color/system_gray_800"
                     android:textSize="16sp"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -180,6 +187,7 @@
                     android:layout_marginBottom="10dp"
                     android:text="24.301"
                     android:textColor="@color/system_gray_500"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -193,6 +201,7 @@
                 android:layout_weight="1"
                 android:background="#00FFFFFF"
                 android:src="@drawable/ic_place"
+                android:visibility="invisible"
                 app:tint="@color/dark_kit_blue" />
 
         </LinearLayout>
@@ -232,6 +241,7 @@
                     android:text="ビジュアル表現基礎"
                     android:textColor="@color/system_gray_800"
                     android:textSize="16sp"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -244,6 +254,7 @@
                     android:layout_marginBottom="10dp"
                     android:text="24.301"
                     android:textColor="@color/system_gray_500"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -257,6 +268,7 @@
                 android:layout_weight="1"
                 android:background="#00FFFFFF"
                 android:src="@drawable/ic_place"
+                android:visibility="invisible"
                 app:tint="@color/dark_kit_blue" />
 
         </LinearLayout>
@@ -296,6 +308,7 @@
                     android:text="ビジュアル表現基礎"
                     android:textColor="@color/system_gray_800"
                     android:textSize="16sp"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -308,6 +321,7 @@
                     android:layout_marginBottom="10dp"
                     android:text="24.301"
                     android:textColor="@color/system_gray_500"
+                    android:visibility="invisible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -321,6 +335,7 @@
                 android:layout_weight="1"
                 android:background="#00FFFFFF"
                 android:src="@drawable/ic_place"
+                android:visibility="invisible"
                 app:tint="@color/dark_kit_blue" />
 
         </LinearLayout>

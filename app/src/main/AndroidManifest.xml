@@ -25,7 +25,7 @@
             android:name=".SendEmailActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".TimeTableActivity"
             android:exported="false" />
         <activity
             android:name=".MakeAccountActivity"
@@ -37,9 +37,8 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".TimeTableActivity"
-            android:exported="true"
-            android:label="時間割">
+            android:name=".LoginActivity"
+            android:exported="true">
             
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

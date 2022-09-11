@@ -1,7 +1,9 @@
 package com.websarva.wings.android.projectsheep
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
@@ -43,5 +45,9 @@ class TimeTableActivity : AppCompatActivity() {
             drawerLayout.close()
             true
         }
+    }
+
+    fun onMon1MapClick(view: View) {
+        startActivity(Intent(this@TimeTableActivity, MapViewActivity::class.java))
     }
 }
