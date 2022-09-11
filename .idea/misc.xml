@@ -13,9 +13,11 @@
         <entry key="app/src/main/res/layout/activity_send_email.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_time_table.xml" value="0.12047101449275362" />
         <entry key="app/src/main/res/drawable/ic_baseline_place_24.xml" value="0.185" />
+        <entry key="app/src/main/res/drawable/ic_menu_24dp.xml" value="0.185" />
         <entry key="app/src/main/res/drawable/ic_place.xml" value="0.185" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/activity_time_table.xml" value="0.4827188940092166" />
+        <entry key="app/src/main/res/layout/activity_map_view.xml" value="0.2951553344726563" />
+        <entry key="app/src/main/res/layout/activity_time_table.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_friday.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_monday.xml" value="0.335" />
         <entry key="app/src/main/res/layout/fragment_thursday.xml" value="0.19610507246376813" />

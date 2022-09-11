@@ -2,11 +2,11 @@ package com.websarva.wings.android.projectsheep
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toolbar
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import com.websarva.wings.android.projectsheep.databinding.ActivityMainBinding
+import kotlinx.android.synthetic.main.activity_time_table.*
 
 class TimeTableActivity : AppCompatActivity() {
 
@@ -33,5 +33,15 @@ class TimeTableActivity : AppCompatActivity() {
         TabLayoutMediator(tabLayout, viewPager2) { tab, position ->
             tab.text = tabTitleArray[position]
         }.attach()
+
+        topAppBar.setNavigationOnClickListener {
+            drawerLayout.open()
+        }
+
+        navigationView.setNavigationItemSelectedListener {
+            it.isChecked = true
+            drawerLayout.close()
+            true
+        }
     }
 }
